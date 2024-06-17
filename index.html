@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="homepage">
+      <header class="header">
+        <div class="header-content">
+          <img
+            class="logo-icon"
+            loading="lazy"
+            alt=""
+            src="./public/logo.svg"
+          />
+
+          <div class="nav-links">
+            <a class="home">Home</a>
+            <a class="stays">Stays</a>
+            <a class="become-a-host">Become a host</a>
+          </div>
+          <div class="login-section">
+            <img
+              class="notifications-icon"
+              loading="lazy"
+              alt=""
+              src="./public/notifications@2x.png"
+            />
+
+            <img
+              class="avatar-icon"
+              loading="lazy"
+              alt=""
+              src="./public/avatar@2x.png"
+            />
+          </div>
+        </div>
+      </header>
+      <div class="hero-container">
+        <div class="hero-container-inner">
+          <div class="frame-parent">
+            <div class="find-a-host-for-every-journey-parent">
+              <b class="find-a-host-container">
+                <span>Find a </span>
+                <span class="host">host</span>
+                <span> for every journey</span>
+              </b>
+              <h3 class="discover-the-best">
+                Discover the best local rental properties that fits your every
+                travel needs
+              </h3>
+            </div>
+            <div class="form">
+              <div class="autocompletebasic">
+                <input class="text" placeholder="Accommodation" type="text" />
+
+                <img class="iconhome" alt="" src="./public/iconhome.svg" />
+              </div>
+              <div class="grouped">
+                <div class="label-parent">
+                  <div class="label">Check-in</div>
+                  <div class="icon">
+                    <img
+                      class="calendartodayfilled-icon"
+                      alt=""
+                      src="./public/calendartodayfilled.svg"
+                    />
+                  </div>
+                </div>
+                <div class="guest-input">
+                  <div class="label1">Check-out</div>
+                  <div class="icon1">
+                    <img
+                      class="calendartodayfilled-icon1"
+                      alt=""
+                      src="./public/calendartodayfilled.svg"
+                    />
+                  </div>
+                </div>
+                <div class="label-group">
+                  <input class="label2" placeholder="Guest" type="text" />
+
+                  <img class="iconuser" alt="" src="./public/iconuser.svg" />
+                </div>
+              </div>
+              <button class="search-button">
+                <img class="iconsearch" alt="" src="./public/iconsearch.svg" />
+
+                <div class="button">Search</div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main class="stays-section">
+        <div class="search-section-header">
+          <div class="stays-nearby-parent">
+            <h3 class="stays-nearby">Stays nearby:</h3>
+            <h3 class="toronto-ontario">Toronto Ontario</h3>
+          </div>
+          <div class="layout-selection">
+            <div class="bento-menu-1-wrapper">
+              <img
+                class="bento-menu-1-icon"
+                alt=""
+                src="./public/bento-menu1.svg"
+              />
+            </div>
+            <div class="map-wrapper">
+              <img class="map-icon" alt="" src="./public/map.svg" />
+            </div>
+          </div>
+        </div>
+        <section class="homes">
+          <div class="listing-item" id="listingItemContainer">
+            <img
+              class="listing-image-icon"
+              alt=""
+              src="./public/listing-image@2x.png"
+            />
+
+            <div class="superhost-tag">
+              <img
+                class="superhost-icon"
+                alt=""
+                src="./public/superhost-icon.svg"
+              />
+
+              <div class="superhost">Superhost</div>
+            </div>
+            <div class="wrapper-heart-icon">
+              <img
+                class="heart-icon"
+                loading="lazy"
+                alt=""
+                src="./public/heart-icon@2x.png"
+              />
+            </div>
+            <div class="item-details">
+              <div class="listing-info">
+                <div class="listing-cont">
+                  <div class="listing-title">Brightwoods Cabin</div>
+                  <div class="listing-subtitle">
+                    Bridlepath, Ontario, Canada
+                  </div>
+                </div>
+                <div class="rating-cont">
+                  <div class="rating">4.9</div>
+                  <img
+                    class="star-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/star-icon.svg"
+                  />
+                </div>
+              </div>
+              <div class="bottom-container">
+                <div class="price-per-night">
+                  <div class="price">$658</div>
+                  <div class="night">/night</div>
+                </div>
+                <div class="best-time">
+                  <img
+                    class="trend-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/trend-icon@2x.png"
+                  />
+
+                  <div class="price-chart">Price chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="listing-item1">
+            <img class="image-icon" alt="" src="./public/image@2x.png" />
+
+            <div class="superhost-tag1">
+              <img
+                class="superhost-icon1"
+                alt=""
+                src="./public/superhost-icon.svg"
+              />
+
+              <div class="superhost1">Superhost</div>
+            </div>
+            <div class="wrapper-heart-icon1">
+              <img class="heart-icon1" alt="" src="./public/heart-icon-1.svg" />
+            </div>
+            <div class="item-details1">
+              <div class="listing-info1">
+                <div class="listing-cont1">
+                  <div class="listing-title1">Urban Loft</div>
+                  <div class="listing-subtitle1">
+                    Georgina Bay, Ontario, Canada
+                  </div>
+                </div>
+                <div class="rating-cont1">
+                  <div class="rating1">4.5</div>
+                  <img class="star-icon1" alt="" src="./public/star-icon.svg" />
+                </div>
+              </div>
+              <div class="bottom-container1">
+                <div class="price-per-night1">
+                  <div class="price1">$410</div>
+                  <div class="night1">/night</div>
+                </div>
+                <div class="best-time1">
+                  <img
+                    class="trend-icon1"
+                    alt=""
+                    src="./public/trend-icon-1.svg"
+                  />
+
+                  <div class="price-chart1">Price chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="listing-item2">
+            <img class="image-icon1" alt="" src="./public/image-1@2x.png" />
+
+            <div class="superhost-tag2">
+              <img
+                class="superhost-icon2"
+                alt=""
+                src="./public/superhost-icon.svg"
+              />
+
+              <div class="superhost2">Superhost</div>
+            </div>
+            <div class="wrapper-heart-icon2">
+              <img class="heart-icon2" alt="" src="./public/heart-icon-1.svg" />
+            </div>
+            <div class="item-details2">
+              <div class="listing-info2">
+                <div class="listing-cont2">
+                  <div class="listing-title2">Forestville Cottages</div>
+                  <div class="listing-subtitle2">Simcoe, Ontario Canada</div>
+                </div>
+                <div class="rating-cont2">
+                  <div class="rating2">5.0</div>
+                  <img class="star-icon2" alt="" src="./public/star-icon.svg" />
+                </div>
+              </div>
+              <div class="bottom-container2">
+                <div class="price-per-night2">
+                  <div class="price2">$325</div>
+                  <div class="night2">/night</div>
+                </div>
+                <div class="best-time2">
+                  <img
+                    class="trend-icon2"
+                    alt=""
+                    src="./public/trend-icon-1.svg"
+                  />
+
+                  <div class="price-chart2">Price chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="listing-item3">
+            <img class="image-icon2" alt="" src="./public/image-2@2x.png" />
+
+            <div class="superhost-tag3">
+              <img
+                class="superhost-icon3"
+                alt=""
+                src="./public/superhost-icon.svg"
+              />
+
+              <div class="superhost3">Superhost</div>
+            </div>
+            <div class="wrapper-heart-icon3">
+              <img class="heart-icon3" alt="" src="./public/heart-icon-1.svg" />
+            </div>
+            <div class="item-details3">
+              <div class="listing-info3">
+                <div class="listing-cont3">
+                  <div class="listing-title3">Unionville Logde</div>
+                  <div class="listing-subtitle3">Markham, Ontario Canada</div>
+                </div>
+                <div class="rating-cont3">
+                  <div class="rating3">4.6</div>
+                  <img class="star-icon3" alt="" src="./public/star-icon.svg" />
+                </div>
+              </div>
+              <div class="bottom-container3">
+                <div class="price-per-night3">
+                  <div class="price3">$485</div>
+                  <div class="night3">/night</div>
+                </div>
+                <div class="best-time3">
+                  <img
+                    class="trend-icon3"
+                    alt=""
+                    src="./public/trend-icon-1.svg"
+                  />
+
+                  <div class="price-chart3">Price chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="listing-item4">
+            <img class="image-icon3" alt="" src="./public/image-3@2x.png" />
+
+            <div class="superhost-tag4">
+              <img
+                class="superhost-icon4"
+                alt=""
+                src="./public/superhost-icon.svg"
+              />
+
+              <div class="superhost4">Superhost</div>
+            </div>
+            <div class="wrapper-heart-icon4">
+              <img class="heart-icon4" alt="" src="./public/heart-icon-1.svg" />
+            </div>
+            <div class="item-details4">
+              <div class="listing-info4">
+                <div class="listing-cont4">
+                  <div class="listing-title4">Missisuaga Aistream</div>
+                  <div class="listing-subtitle4">
+                    Missisauga, Ontario, Canada
+                  </div>
+                </div>
+                <div class="rating-cont4">
+                  <div class="rating4">4.8</div>
+                  <img class="star-icon4" alt="" src="./public/star-icon.svg" />
+                </div>
+              </div>
+              <div class="bottom-container4">
+                <div class="price-per-night4">
+                  <div class="price4">$502</div>
+                  <div class="night4">/night</div>
+                </div>
+                <div class="best-time4">
+                  <img
+                    class="trend-icon4"
+                    alt=""
+                    src="./public/trend-icon-1.svg"
+                  />
+
+                  <div class="price-chart4">Price chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="listing-item5">
+            <img class="image-icon4" alt="" src="./public/image-4@2x.png" />
+
+            <div class="superhost-tag5">
+              <img
+                class="superhost-icon5"
+                alt=""
+                src="./public/superhost-icon.svg"
+              />
+
+              <div class="superhost5">Superhost</div>
+            </div>
+            <div class="wrapper-heart-icon5">
+              <img class="heart-icon5" alt="" src="./public/heart-icon-1.svg" />
+            </div>
+            <div class="item-details5">
+              <div class="listing-info5">
+                <div class="listing-cont5">
+                  <div class="listing-title5">Niagara Homes</div>
+                  <div class="listing-subtitle5">Niagara, Ontario, Canada</div>
+                </div>
+                <div class="rating-cont5">
+                  <div class="rating5">4.9</div>
+                  <img class="star-icon5" alt="" src="./public/star-icon.svg" />
+                </div>
+              </div>
+              <div class="bottom-container5">
+                <div class="price-per-night5">
+                  <div class="price5">$655</div>
+                  <div class="night5">/night</div>
+                </div>
+                <div class="best-time5">
+                  <img
+                    class="trend-icon5"
+                    alt=""
+                    src="./public/trend-icon-1.svg"
+                  />
+
+                  <div class="price-chart5">Price chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="listing-item6">
+            <img class="image-icon5" alt="" src="./public/image-5@2x.png" />
+
+            <div class="superhost-tag6">
+              <img
+                class="superhost-icon6"
+                alt=""
+                src="./public/superhost-icon.svg"
+              />
+
+              <div class="superhost6">Superhost</div>
+            </div>
+            <div class="wrapper-heart-icon6">
+              <img class="heart-icon6" alt="" src="./public/heart-icon-1.svg" />
+            </div>
+            <div class="item-details6">
+              <div class="listing-info6">
+                <div class="listing-cont6">
+                  <div class="listing-title6">Sunny Estate</div>
+                  <div class="listing-subtitle6">Barcort, Ontario Canada</div>
+                </div>
+                <div class="rating-cont6">
+                  <div class="rating6">5.0</div>
+                  <img class="star-icon6" alt="" src="./public/star-icon.svg" />
+                </div>
+              </div>
+              <div class="bottom-container6">
+                <div class="price-per-night6">
+                  <div class="price6">$320</div>
+                  <div class="night6">/night</div>
+                </div>
+                <div class="best-time6">
+                  <img
+                    class="trend-icon6"
+                    alt=""
+                    src="./public/trend-icon-1.svg"
+                  />
+
+                  <div class="price-chart6">Price chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="listing-item7">
+            <img class="image-icon6" alt="" src="./public/image-6@2x.png" />
+
+            <div class="superhost-tag7">
+              <img
+                class="superhost-icon7"
+                alt=""
+                src="./public/superhost-icon.svg"
+              />
+
+              <div class="superhost7">Superhost</div>
+            </div>
+            <div class="wrapper-heart-icon7">
+              <img class="heart-icon7" alt="" src="./public/heart-icon-1.svg" />
+            </div>
+            <div class="item-details7">
+              <div class="listing-info7">
+                <div class="listing-cont7">
+                  <div class="listing-title7">Lawrence Hills</div>
+                  <div class="listing-subtitle7">Lawrence, Ontario Canada</div>
+                </div>
+                <div class="rating-cont7">
+                  <div class="rating7">5.0</div>
+                  <img class="star-icon7" alt="" src="./public/star-icon.svg" />
+                </div>
+              </div>
+              <div class="bottom-container7">
+                <div class="price-per-night7">
+                  <div class="price7">$350</div>
+                  <div class="night7">/night</div>
+                </div>
+                <div class="best-time7">
+                  <img
+                    class="trend-icon7"
+                    alt=""
+                    src="./public/trend-icon-1.svg"
+                  />
+
+                  <div class="price-chart7">Price chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="listing-item8">
+            <img class="image-icon7" alt="" src="./public/image-7@2x.png" />
+
+            <div class="superhost-tag8">
+              <img
+                class="superhost-icon8"
+                alt=""
+                src="./public/superhost-icon.svg"
+              />
+
+              <div class="superhost8">Superhost</div>
+            </div>
+            <div class="wrapper-heart-icon8">
+              <img class="heart-icon8" alt="" src="./public/heart-icon-1.svg" />
+            </div>
+            <div class="item-details8">
+              <div class="listing-info8">
+                <div class="listing-cont8">
+                  <div class="listing-title8">Simcoe Lake Lodge</div>
+                  <div class="listing-subtitle8">Simcoe, Ontario, Canada</div>
+                </div>
+                <div class="rating-cont8">
+                  <div class="rating8">5.0</div>
+                  <img class="star-icon8" alt="" src="./public/star-icon.svg" />
+                </div>
+              </div>
+              <div class="bottom-container8">
+                <div class="price-per-night8">
+                  <div class="price8">$395</div>
+                  <div class="night8">/night</div>
+                </div>
+                <div class="best-time8">
+                  <img
+                    class="trend-icon8"
+                    alt=""
+                    src="./public/trend-icon@2x.png"
+                  />
+
+                  <div class="price-chart8">Price chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="listing-item9">
+            <img class="image-icon8" alt="" src="./public/image-8@2x.png" />
+
+            <div class="superhost-tag9">
+              <img
+                class="superhost-icon9"
+                alt=""
+                src="./public/superhost-icon.svg"
+              />
+
+              <div class="superhost9">Superhost</div>
+            </div>
+            <div class="wrapper-heart-icon9">
+              <img class="heart-icon9" alt="" src="./public/heart-icon-1.svg" />
+            </div>
+            <div class="item-details9">
+              <div class="listing-info9">
+                <div class="listing-cont9">
+                  <div class="listing-title9">Wasaga Beach Home</div>
+                  <div class="listing-subtitle9">
+                    Georgina Bay, Ontario, Canada
+                  </div>
+                </div>
+                <div class="rating-cont9">
+                  <div class="rating9">5.0</div>
+                  <img class="star-icon9" alt="" src="./public/star-icon.svg" />
+                </div>
+              </div>
+              <div class="bottom-container9">
+                <div class="price-per-night9">
+                  <div class="price9">$385</div>
+                  <div class="night9">/night</div>
+                </div>
+                <div class="best-time9">
+                  <img
+                    class="trend-icon9"
+                    alt=""
+                    src="./public/trend-icon-1.svg"
+                  />
+
+                  <div class="price-chart9">Price chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="listing-item10">
+            <img class="image-icon9" alt="" src="./public/image-9@2x.png" />
+
+            <div class="superhost-tag10">
+              <img
+                class="superhost-icon10"
+                alt=""
+                src="./public/superhost-icon.svg"
+              />
+
+              <div class="superhost10">Superhost</div>
+            </div>
+            <div class="wrapper-heart-icon10">
+              <img
+                class="heart-icon10"
+                alt=""
+                src="./public/heart-icon-1.svg"
+              />
+            </div>
+            <div class="item-details10">
+              <div class="listing-info10">
+                <div class="listing-cont10">
+                  <div class="listing-title10">Banff Hills</div>
+                  <div class="listing-subtitle10">Banff, Alberta, Canada</div>
+                </div>
+                <div class="rating-cont10">
+                  <div class="rating10">5.0</div>
+                  <img
+                    class="star-icon10"
+                    alt=""
+                    src="./public/star-icon.svg"
+                  />
+                </div>
+              </div>
+              <div class="bottom-container10">
+                <div class="price-per-night10">
+                  <div class="price10">$385</div>
+                  <div class="night10">/night</div>
+                </div>
+                <div class="best-time10">
+                  <img
+                    class="trend-icon10"
+                    alt=""
+                    src="./public/trend-icon-1.svg"
+                  />
+
+                  <div class="price-chart10">Price chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="listing-item11">
+            <img class="image-icon10" alt="" src="./public/image-10@2x.png" />
+
+            <div class="superhost-tag11">
+              <img
+                class="superhost-icon11"
+                alt=""
+                src="./public/superhost-icon.svg"
+              />
+
+              <div class="superhost11">Superhost</div>
+            </div>
+            <div class="wrapper-heart-icon11">
+              <img
+                class="heart-icon11"
+                alt=""
+                src="./public/heart-icon-1.svg"
+              />
+            </div>
+            <div class="item-details11">
+              <div class="listing-info11">
+                <div class="listing-cont11">
+                  <div class="listing-title11">Creemore Canada</div>
+                  <div class="listing-subtitle11">
+                    Creemore, Alberta, Canada
+                  </div>
+                </div>
+                <div class="rating-cont11">
+                  <div class="rating11">5.0</div>
+                  <img
+                    class="star-icon11"
+                    alt=""
+                    src="./public/star-icon.svg"
+                  />
+                </div>
+              </div>
+              <div class="bottom-container11">
+                <div class="price-per-night11">
+                  <div class="price11">$385</div>
+                  <div class="night11">/night</div>
+                </div>
+                <div class="best-time11">
+                  <img
+                    class="trend-icon11"
+                    alt=""
+                    src="./public/trend-icon-1.svg"
+                  />
+
+                  <div class="price-chart11">Price chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="listing-item12">
+            <img class="image-icon11" alt="" src="./public/image-11@2x.png" />
+
+            <div class="superhost-tag12">
+              <img
+                class="superhost-icon12"
+                alt=""
+                src="./public/superhost-icon.svg"
+              />
+
+              <div class="superhost12">Superhost</div>
+            </div>
+            <div class="wrapper-heart-icon12">
+              <img
+                class="heart-icon12"
+                alt=""
+                src="./public/heart-icon-1.svg"
+              />
+            </div>
+            <div class="item-details12">
+              <div class="listing-info12">
+                <div class="listing-cont12">
+                  <div class="listing-title12">Kawartha Lakes</div>
+                  <div class="listing-subtitle12">
+                    Kawartha, Alberta, Canada
+                  </div>
+                </div>
+                <div class="rating-cont12">
+                  <div class="rating12">5.0</div>
+                  <img
+                    class="star-icon12"
+                    alt=""
+                    src="./public/star-icon.svg"
+                  />
+                </div>
+              </div>
+              <div class="bottom-container12">
+                <div class="price-per-night12">
+                  <div class="price12">$385</div>
+                  <div class="night12">/night</div>
+                </div>
+                <div class="best-time12">
+                  <img
+                    class="trend-icon12"
+                    alt=""
+                    src="./public/trend-icon@2x.png"
+                  />
+
+                  <div class="price-chart12">Price chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="listing-item13">
+            <img class="image-icon12" alt="" src="./public/image-12@2x.png" />
+
+            <div class="superhost-tag13">
+              <img
+                class="superhost-icon13"
+                alt=""
+                src="./public/superhost-icon.svg"
+              />
+
+              <div class="superhost13">Superhost</div>
+            </div>
+            <div class="wrapper-heart-icon13">
+              <img
+                class="heart-icon13"
+                alt=""
+                src="./public/heart-icon-1.svg"
+              />
+            </div>
+            <div class="item-details13">
+              <div class="listing-info13">
+                <div class="listing-cont13">
+                  <div class="listing-title13">Revelstoke Cabin</div>
+                  <div class="listing-subtitle13">
+                    Revelstoke, Alberta, Canada
+                  </div>
+                </div>
+                <div class="rating-cont13">
+                  <div class="rating13">5.0</div>
+                  <img
+                    class="star-icon13"
+                    alt=""
+                    src="./public/star-icon.svg"
+                  />
+                </div>
+              </div>
+              <div class="bottom-container13">
+                <div class="price-per-night13">
+                  <div class="price13">$385</div>
+                  <div class="night13">/night</div>
+                </div>
+                <div class="best-time13">
+                  <img
+                    class="trend-icon13"
+                    alt=""
+                    src="./public/trend-icon-1.svg"
+                  />
+
+                  <div class="price-chart13">Price chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="listing-item14">
+            <img class="image-icon13" alt="" src="./public/image-13@2x.png" />
+
+            <div class="superhost-tag14">
+              <img
+                class="superhost-icon14"
+                alt=""
+                src="./public/superhost-icon.svg"
+              />
+
+              <div class="superhost14">Superhost</div>
+            </div>
+            <div class="wrapper-heart-icon14">
+              <img
+                class="heart-icon14"
+                alt=""
+                src="./public/heart-icon-1.svg"
+              />
+            </div>
+            <div class="item-details14">
+              <div class="listing-info14">
+                <div class="listing-cont14">
+                  <div class="listing-title14">Brightwoods Estate</div>
+                  <div class="listing-subtitle14">Brightwoods Estate</div>
+                </div>
+                <div class="rating-cont14">
+                  <div class="rating14">5.0</div>
+                  <img
+                    class="star-icon14"
+                    alt=""
+                    src="./public/star-icon.svg"
+                  />
+                </div>
+              </div>
+              <div class="bottom-container14">
+                <div class="price-per-night14">
+                  <div class="price14">$385</div>
+                  <div class="night14">/night</div>
+                </div>
+                <div class="best-time14">
+                  <img
+                    class="trend-icon14"
+                    alt=""
+                    src="./public/trend-icon-1.svg"
+                  />
+
+                  <div class="price-chart14">Price chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="listing-item15">
+            <img class="image-icon14" alt="" src="./public/image-14@2x.png" />
+
+            <div class="superhost-tag15">
+              <img
+                class="superhost-icon15"
+                alt=""
+                src="./public/superhost-icon.svg"
+              />
+
+              <div class="superhost15">Superhost</div>
+            </div>
+            <div class="wrapper-heart-icon15">
+              <img
+                class="heart-icon15"
+                alt=""
+                src="./public/heart-icon-1.svg"
+              />
+            </div>
+            <div class="item-details15">
+              <div class="listing-info15">
+                <div class="listing-cont15">
+                  <div class="listing-title15">Brightwoods Estate</div>
+                  <div class="listing-subtitle15">Brightwoods Estate</div>
+                </div>
+                <div class="rating-cont15">
+                  <div class="rating15">5.0</div>
+                  <img
+                    class="star-icon15"
+                    alt=""
+                    src="./public/star-icon.svg"
+                  />
+                </div>
+              </div>
+              <div class="bottom-container15">
+                <div class="price-per-night15">
+                  <div class="price15">$385</div>
+                  <div class="night15">/night</div>
+                </div>
+                <div class="best-time15">
+                  <img
+                    class="trend-icon15"
+                    alt=""
+                    src="./public/trend-icon-1.svg"
+                  />
+
+                  <div class="price-chart15">Price chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <button class="show-more-button">
+          <div class="show-more-text">Show more</div>
+        </button>
+      </main>
+      <footer class="footer">
+        <div class="footer-links-wrapper">
+          <div class="footer-links">
+            <div class="support-links">
+              <h3 class="support">Support</h3>
+              <div class="help-centre">Help Centre</div>
+              <div class="aircover">AirCover</div>
+              <div class="combating-discrimination">
+                Combating discrimination
+              </div>
+              <div class="supporting-people-with">
+                Supporting people with disabilities
+              </div>
+              <div class="cencellation-options">Cencellation options</div>
+              <div class="report-neighbourhood-concern">
+                Report neighbourhood concern
+              </div>
+            </div>
+            <div class="hosting-links">
+              <h3 class="hosting">Hosting</h3>
+              <div class="local-home">Local home</div>
+              <div class="cover-for-hosts">Cover for hosts</div>
+              <div class="hosting-resources">Hosting resources</div>
+              <div class="community-forum">Community forum</div>
+              <div class="hosting-responsibly">Hosting responsibly</div>
+            </div>
+            <div class="hosting-links1">
+              <h3 class="localhost">Localhost</h3>
+              <div class="newsroom">Newsroom</div>
+              <div class="new-features">New Features</div>
+              <div class="careers">Careers</div>
+              <div class="investres">Investres</div>
+              <div class="gift-cards">Gift cards</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="band">
+        <div class="band-inner">
+          <div class="localhost-inc-all-rights-res-parent">
+            <div class="localhost-inc-all">
+              © 2023 Localhost, Inc. All Rights Reserved
+            </div>
+            <div class="privacy-policy-parent">
+              <div class="privacy-policy">Privacy Policy</div>
+              <div class="terms-conditions">Terms & Conditions</div>
+              <div class="contact-us">Contact us</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var listingItemContainer = document.getElementById("listingItemContainer");
+      if (listingItemContainer) {
+        listingItemContainer.addEventListener("click", function (e) {
+          // Please sync "Property Details" to the project
+        });
+      }
+      </script>
+  </body>
+</html>
